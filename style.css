@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:wght@300&family=Montserrat:wght@500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,600;1,600;1,700&family=Montserrat:wght@500&family=Oswald:wght@300;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&family=Signika+Negative:wght@500;600&display=swap');
 body{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 300;
     margin: auto;
     background-color: #ffffff;
     /* overflow: hidden; */
@@ -15,6 +12,9 @@ body{
 }
 a{
     text-decoration: none;
+}
+ul{
+    list-style-type: none;
 }
 .main.container{
     height: 100vh;
@@ -32,15 +32,19 @@ nav{
     /* opacity: 0.9; */
     color: #ffffff;
     z-index: 300;
-    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-size: 1.2em;
+    font-weight: 500;
 }
+
 
 .sticky{
     position: fixed;
     top:0;
     z-index: 500;
     background-color: rgb(252, 252, 252);
-    /* box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.1);
+    color: black;
     -webkit-animation: .95s ease-in-out 0s normal none 1 running fadeInDown;
     animation: .95s ease-in-out 0s normal none 1 running fadeInDown;
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -57,6 +61,16 @@ nav .navItem{
     padding: 1em;
 }
 
+nav .navItem .anchor .choices{
+    display: none;
+}
+
+.show_box{
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-color: white;;
+}
+
 
 .sub.container{
     height: 100vh;
@@ -67,34 +81,43 @@ nav .navItem{
 }
 .sub.container.home {
    width: 100%;
+   min-width: 900px;
    height: 70vh;
    background-image: url('images/2019-07-04-10-51-47.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    margin-bottom: 5rem;
    display: flex;
+   /* font-family: 'Josefin Sans', sans-serif; */
    flex-direction: column;
   
 }
 .sub.container .home.title{
-    text-align: center;
-    color: rgb(221, 221, 221);
+    text-align: left;
+    color: rgb(255, 254, 254);
     font-size: 3em;
+    font-weight: bold;
     position: absolute;
-    top: 6em;
-    left: 13em;
+    top: 40%;
+    left: 50%;
     z-index: 100;
    
 }
-
+.sub.container.cities{
+    height: 30vh;
+    padding-top: 5em;
+}
 .sub.container.cities .quote, span.wrap{
-    font-weight: 700;
-    font-size: 2em;
+    font-weight: bold;
+    font-size: 1.6em;
     text-align: center;
     color: black;
+    font-family: 'Signika Negative', sans-serif;
+    
 }
 .sub.container.cities .quote .shortIntro{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
 }
 
 
@@ -117,45 +140,65 @@ nav .navItem{
    
 }
 .sub.container .allBoxes .box{
-    width: 25em;
-    height: 25em;
-    border-radius: 10px;
+    /* width: 20em;
+    height: 20em; */
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     gap:10px;
+    object-fit: cover;
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px 10px 50px 10px;
+
+   
 }
+
+
+
+.sub.container .allBoxes .box .photo img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+
+
 .sub.container .allBoxes .box:hover{
-    transform: scale(1.01);
+    /* transform: scale(1.01); */
     transition: .5s;
-    padding-bottom: 20px;
-    box-shadow: 10px 10px 10px #d1c2c2;
-    filter: brightness(70%);
+    /* padding-bottom: 20px; */
+    box-shadow: 10px 10px #2e2f42;
+    /* filter:contrast(50%); */
+   
 }
-.sub.container .allBoxes .box:first-child{
-    background-image:url("images/2019-07-04-11-44-30.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-.sub.sub.container .allBoxes .box:nth-child(2){
-    background-image: url("images/IMAG3471.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.sub.container .allBoxes .box img:hover{
+    animation: filter-animation 3s infinite;
+
 }
 
-.sub.container .allBoxes .box:nth-child(3){
-    background-image: url("images/20190705_223514.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+@keyframes filter-animation {
+    0% {
+      filter: grayscale(4) saturate(1);
+    }
+  
+    50% {
+      filter: grayscale(2) saturate(8);
+    }
+  
+    100% {
+      filter: grayscale(0) saturate(1);
+    }
+  }
 .sub.container .allBoxes .box .name{
-    position: relative;
-    top: 15em;
-    /* left: .2em; */
+    font-family: 'Signika Negative', sans-serif;;
+    font-weight: 600;
     font-size: 1.8em;
     color: black;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
    
 }
 .sub.container .allBoxes .box .name span{
@@ -164,7 +207,7 @@ nav .navItem{
 }
 
 .sub.container.aboutME {
-    background-color: #d4c1c1;
+    background-color: #fadd92;
     text-align: center;
     font-size: 1.5em;
     height: 60vh; 
@@ -173,9 +216,138 @@ nav .navItem{
 .sub.container.aboutMe .title{
     position: relative;
     top: -1000px;
-   
+}
+
+
+
+/* article */
+#penang_banner{
+    background-image: url("images/2019-07-04-11-44-30.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
+}
+#sabah_banner{
+    background-image: url("images/IMAG3471.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    background-position: 25% 75%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
+}
+#melaka_banner{
+    background-image: url("images/2019-07-05-23-09-14.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    background-position: 30%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
+}
+.the_article{
+    min-width: 700px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
     
 }
+
+article{
+    line-height: 3em;
+    text-justify: distribute;
+    
+}
+article .title{
+    font-size: 3em;
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+article .quote{
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: center;
+}
+article .content{
+    /* margin: 5em; */
+    text-align: left;
+    padding: 3em;
+}
+article .content .sub_title{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    
+}
+article .content .paragraph{
+    font-size: 1.4em;
+    margin: 2em auto;
+    text-justify: distribute;
+}
+article .content .image{
+    text-align: center;
+}
+
+article .content .image img{
+    /* margin: 0 auto; */
+    object-fit: contain;
+    width: 700px;
+    height: auto;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+article .content .image.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    min-width: 1000px;
+    min-width: 100%;
+    min-height:100%;
+    text-align: center;
+    padding: 0;
+}
+
+
+.image.flex > li {
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+}
+
+.image.flex li img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+   
+  }
+
+.footer.sub.container{
+      background-color: #42342e;
+      height: 30vh;
+}
+
+
+
+
+
+
+
 /* scroll boxes try */
 .sub.container .scroll_area .allBoxes .box{
    

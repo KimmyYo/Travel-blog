@@ -11,15 +11,22 @@ $(document).ready(function stickyNavbar(){
         var navbarHeight = sticky.height();
 
         if (screenSize >= 320){
-            if (scroll > 500){
-                // sticky.addClass(".sticky");
+            if (scroll > navbarHeight){
+                sticky.addClass("sticky");
             } else{
-                sticky.addClass(".sticky");
+                sticky.removeClass("sticky");
             }
         }
     })
 
+    $(".anchor").on("mouseover", function () {
+        $('.choices').addClass("show_box");
+    });
+    
+
 })
+
+
 
 
 var TxtType = function(el, toRotate, period) {
