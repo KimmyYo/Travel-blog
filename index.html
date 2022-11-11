@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2022 Election</title>
+    <title>Travel to Travel</title>
     <!-- <script src="https://gist.github.com/DavidWells/18e73022e723037a50d6.js"></script> -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
@@ -23,18 +23,40 @@
                 </div>
                 
                 <div class="navItem">
-                    <div class="anchor">
-                        Destination
-                        <div class="choices">
-                            <div class="country_name">US</div>
-                            <div class="country_name">Malaysia</div>
-                            <div class="country_name">Europe</div>
-                            <div class="country_name">China</div>
+                    <div class="anchor" id="#anchor">
+                        <div class="main_menu">
+                            <div>Destination</div>
+                            <div class="drop_down icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="sub_menu">
+                            <ul class="choices" id="choices">
+                                <li class="country_name">US</li>
+                                <li class="country_name">Malaysia</li>
+                                <li class="country_name">Europe</li>
+                                <li class="country_name">China</li>
+                            </ul>
                         </div>
                     </div>
-                  
-                    <div class="anchor">Travel Tips</div>
-                </div> 
+                </div>
+                <div class="navItem">
+                    <div class="anchor">
+                        <div class="main_menu">
+                            <div>Travel Tips</div>
+                            <div class="drop_down icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
             </nav>
             <div class="home title">Malaysia</div>
             <!-- <img src="images/homebanner.jpeg"> -->

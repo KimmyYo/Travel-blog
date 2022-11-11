@@ -3,6 +3,7 @@ $(document).ready(function stickyNavbar(){
     var windows = $(window);
     var screenSize = windows.width();
     var sticky = $("#navbar");
+    var icon = $(".icon")
     var $html = $('html');
     var $body = $('body');
 
@@ -13,18 +14,33 @@ $(document).ready(function stickyNavbar(){
         if (screenSize >= 320){
             if (scroll > navbarHeight){
                 sticky.addClass("sticky");
+                icon.css("color", "black");
             } else{
                 sticky.removeClass("sticky");
+                icon.css("color", "white");
             }
-        }
+        }   
     })
 
-    $(".anchor").on("mouseover", function () {
-        $('.choices').addClass("show_box");
-    });
-    
 
+    var anchor = $(".anchor");
+    var sub_menu = $(".choices");
+
+    anchor.click(
+        function(){
+            sub_menu.toggle("100",function(){
+                // sub_menu.css("display", "block");
+        }), function(){
+                // sub_menu.removeClass("show_box");
+        }
+
+    })
+
+   
+    
 })
+
+
 
 
 

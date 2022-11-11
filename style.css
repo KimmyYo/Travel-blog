@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,600;1,600;1,700&family=Montserrat:wght@500&family=Oswald:wght@300;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&family=Signika+Negative:wght@500;600&display=swap');
+
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
@@ -8,6 +9,7 @@ body{
     /* overflow: hidden; */
     height: auto; 
     scroll-behavior: smooth;
+    text-justify: inter-ideograph;
     
 }
 a{
@@ -18,6 +20,8 @@ ul{
 }
 .main.container{
     height: 100vh;
+    width: 100%;
+    min-width: 300px;
 
 }
 nav{
@@ -59,16 +63,68 @@ nav .navItem{
     align-items: center;
     gap: 1.1em;
     padding: 1em;
+    height: auto;
 }
 
-nav .navItem .anchor .choices{
-    display: none;
+nav .navItem .anchor{
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
 }
+
+nav .navItem .anchor:after {
+    display: block;
+    content: '';
+    border-bottom: solid 2px #968878;  
+    /* padding-bottom: px; */
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+   
+}
+nav .navItem .anchor:hover:after { transform: scaleX(1); }
+
+nav .navItem .anchor .main_menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* nav .navItem .anchor .main_menu:hover{
+    
+} */
+
+.drop_down.icon{
+    padding-top: 5px;
+    color: white;
+}
+nav .navItem .anchor .choices{
+    display: none;  
+    position: absolute;
+    width: 200px;
+    padding: 50px;
+    margin: 20px 0;
+    background-color: rgb(253, 253, 253);
+    color: black;
+    box-shadow: 3px 3px 5px #bbbbbd;
+    cursor: pointer;
+
+}
+
+nav .navItem .anchor .choices li.country_name:not(:last-child) { 
+    margin-bottom: 3px;  
+ }
 
 .show_box{
-    display: inline-flex;
-    flex-wrap: wrap;
-    background-color: white;;
+    display: block;
+    position: absolute;
+    width: 200px;
+    padding: 50px;
+    margin: 20px 0;
+    background-color: rgb(253, 253, 253);
+    color: black;
+    box-shadow: 3px 3px 5px #bbbbbd;
+    cursor: pointer;
 }
 
 
@@ -81,26 +137,31 @@ nav .navItem .anchor .choices{
 }
 .sub.container.home {
    width: 100%;
-   min-width: 900px;
+   /* min-width: 900px; */
    height: 70vh;
    background-image: url('images/2019-07-04-10-51-47.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    margin-bottom: 5rem;
-   display: flex;
-   /* font-family: 'Josefin Sans', sans-serif; */
+
+   /* display: flex;
    flex-direction: column;
-  
+   align-items: center;
+   justify-content: center; */
+   display: grid;
+   grid-template-rows: 70px 1fr;
 }
+
 .sub.container .home.title{
     text-align: left;
     color: rgb(255, 254, 254);
     font-size: 3em;
     font-weight: bold;
-    position: absolute;
-    top: 40%;
-    left: 50%;
     z-index: 100;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
 }
 .sub.container.cities{
@@ -251,20 +312,19 @@ nav .navItem .anchor .choices{
     overflow: hidden;
 }
 .the_article{
-    min-width: 700px;
-    width: 80%;
+    min-width: 200px;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 
-    
 }
 
 article{
-    line-height: 3em;
-    text-justify: distribute;
+    line-height: 2.5em;
+    
     
 }
 article .title{
@@ -282,7 +342,7 @@ article .quote{
 article .content{
     /* margin: 5em; */
     text-align: left;
-    padding: 3em;
+    padding: 1em 3em;
 }
 article .content .sub_title{
     font-family: 'Signika Negative', sans-serif;
@@ -292,7 +352,7 @@ article .content .sub_title{
 }
 article .content .paragraph{
     font-size: 1.4em;
-    margin: 2em auto;
+    margin: 0.3em auto;
     text-justify: distribute;
 }
 article .content .image{
@@ -315,11 +375,13 @@ article .content .image.flex{
     gap: 20px;
     align-items: center;
     justify-content: center;
-    min-width: 1000px;
-    min-width: 100%;
+    /* min-width: 1000px; */
+    min-width: 200px;
     min-height:100%;
     text-align: center;
+    /* padding-top: 1em; */
     padding: 0;
+    width: 100%;
 }
 
 
@@ -341,7 +403,6 @@ article .content .image.flex{
       background-color: #42342e;
       height: 30vh;
 }
-
 
 
 
