@@ -3,7 +3,7 @@ $(document).ready(function stickyNavbar(){
     var windows = $(window);
     var screenSize = windows.width();
     var sticky = $("#main_navbar");
-    var icon = $(".icon")
+    var icon = $(".drop_down.icon")
     var $html = $('html');
     var $body = $('body');
 
@@ -17,25 +17,38 @@ $(document).ready(function stickyNavbar(){
                 icon.css("color", "black");
                 $("#sub_navbar").addClass("sticky");
                 $("#sub_navbar").css("color", "black");
+                
+
+               
             } else{
                 sticky.removeClass("sticky");
                 icon.css("color", "white");
                 $("#sub_navbar").removeClass("sticky");
-                $("#sub_navbar").css("color", "white");
+                // $("#sub_navbar").css("color", "white");
+               
+               
             }
-        }   
+        }  
+    
+
     })
 
+     
+    $(function(){
+        $("#header").load("header.html"); 
+        // $("#footer").load("footer.html"); 
+    });
 
-
-    click_func($("#main_menu_1"), $("#sub_menu_1"));
-    click_func($("#main_menu_2"), $("#sub_menu_2"));
+    
+    box_hover($("#main_menu_1"), $("#sub_menu_1"));
+    box_hover($("#main_menu_2"), $("#sub_menu_2"));
     click_func($("#sub_country_1"), $("#sub_sub_city_1"));
     click_func($("#sub_country_2"), $("#sub_sub_city_2"));
     click_func($("#sub_country_3"), $("#sub_sub_city_3"));
     click_func($("#sub_country_4"), $("#sub_sub_city_4"));
     click_func($("#secondary_toggle"), $("#secondary_menu"));
     click_func($("#close_icon"), $("#secondary_menu"));
+    click_func($("#secondary_drop_icon"), $("#secondary_sub_sub_menu"));
     
   
 
@@ -45,13 +58,25 @@ $(document).ready(function stickyNavbar(){
 
 function click_func(be_clicked, to_show){
     be_clicked.click(
-        function(e){
-            e.stopPropagation();
+        function(){
+            
             console.log("yes");
             to_show.toggle("100");
         }
     )
 }
+
+function box_hover(be_hovered, to_show) {
+    be_hovered.on('mouseover', function(e) {
+        if (e.target === this) {
+            to_show.toggle();
+        }
+      })
+      .on('mouseout', function() {
+            to_show.toggle();
+      });
+}
+
 
 
 
