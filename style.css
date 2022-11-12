@@ -144,6 +144,59 @@ nav .navItem .anchor .choices .city{
     width: 100%;
 }
 
+
+
+#sub_navbar .secondary_menu{
+    display: none;
+    width: 100%;
+    min-width: 300px;
+    height: 100vh;
+    z-index: 900;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+
+
+}
+
+#sub_navbar .secondary_menu .close_icon{
+    color: black;
+    font-weight: 600;
+    padding: 2em;
+    padding-bottom: 1em;
+}
+
+#sub_navbar .secondary_menu .sub_menu_items{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: flex-start;
+    gap: 2em;
+
+    padding: 2em;
+    font-size: 1.3em;
+    font-weight: 700;
+
+   
+}
+#sub_navbar .secondary_menu .sub_menu_items .item{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   align-items: center;
+   
+  
+}
+
+
+#sub_navbar .secondary_menu .sub_menu_items .item .drop_down.icon{
+    color: black;
+    padding-left: 1em;
+}
+
+
+/* page container */
 .sub.container{
     height: 100vh;
     width: 100%;

@@ -34,11 +34,17 @@ $(document).ready(function stickyNavbar(){
     click_func($("#sub_country_2"), $("#sub_sub_city_2"));
     click_func($("#sub_country_3"), $("#sub_sub_city_3"));
     click_func($("#sub_country_4"), $("#sub_sub_city_4"));
+    click_func($("#secondary_toggle"), $("#secondary_menu"));
+    click_func($("#close_icon"), $("#secondary_menu"));
+    
+  
+
+    
 
 })
 
 function click_func(be_clicked, to_show){
-    be_clicked.click("slow",
+    be_clicked.click(
         function(e){
             e.stopPropagation();
             console.log("yes");
@@ -46,6 +52,8 @@ function click_func(be_clicked, to_show){
         }
     )
 }
+
+
 
 
 
