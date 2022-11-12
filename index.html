@@ -10,8 +10,10 @@
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
-    
     <script src="script.js"></script>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW47wcJLNRymDnxasunFKdKmr0BL0mPnA&callBack=initMap"></script>
+    <script src="map.js"></script>
 </head>
 <body>
 
@@ -25,8 +27,8 @@
                 </div>
                 
                 <div class="navItem">
-                    <div class="anchor" >
-                        <div class="main_menu" id="main_menu_1">
+                    <div class="anchor" id="main_menu_1">
+                        <div class="main_menu" >
                             <div>Destination</div>
                             <div class="drop_down icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -69,8 +71,8 @@
                     </div>
                 </div>
                 <div class="navItem">
-                    <div class="anchor">
-                        <div class="main_menu" id="main_menu_2">
+                    <div class="anchor" id="main_menu_2">
+                        <div class="main_menu" >
                             <div>Travel Tips</div>
                             <div class="drop_down icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -110,14 +112,26 @@
                             Travel to Travel
                         </div>
                         <div class="item">
-                            Destination
-                            <div class="drop_down icon">
-                                <!-- <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </svg> -->
+                            <div class="select_section">
+                                Destination
+                                <div class="drop_down icon" id="secondary_drop_icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="sub_item_section" id="secondary_sub_sub_menu">
+                                <ul class="sub_choices" >
+                                    <li class="country_name">America</li>
+                                    <li class="country_name">United Kindom</li>
+                                    <li class="country_name">Malaysia</li>
+                                    <li class="country_name">China</li>
+                                </ul>
+
                             </div>
                         </div>
+                      
                         <div class="item">
                             Travel Tips
                         </div>
@@ -128,10 +142,9 @@
            
           
             <div class="home title">Malaysia</div>
-            <!-- <img src="images/homebanner.jpeg"> -->
+          
         </div>
         <div class="cities sub container">
-           
             <div class="quote">
                 <div class="title">
                     <a href="" class="typewrite" data-period="2000" data-type='[ "What is Your imagination of Malaysia?" ]'>
@@ -147,7 +160,7 @@
                 <div class="shortIntro"><p>The impact of colonization.</p></div>
             </div>
         </div>
-        <div class="cities sub container">
+        <div class="cities sub container" id="polarid">
             <div class="allBoxes">
                 <div class="box">
                     <a href="penang.html" class="link">
@@ -177,9 +190,7 @@
             </div>
         </div>
 
-        <div class="sub container profile" style="height:70vh">
-            
-        </div>
+        <div style="width: 100%; height:70vh; margin-bottom: 100px; z-index: 1000;" id="map"></div>
         <div class="footer sub container">
             
         </div>

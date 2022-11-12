@@ -275,6 +275,10 @@ nav .navItem .anchor .choices .city{
     /* padding-top: 5em; */
     margin-bottom: 5em;
 }
+@keyframes FadeIn {
+    from { top: 100%; } 
+    to {top: 0; }
+}
 .sub.container.cities .quote, span.wrap{
     font-weight: bold;
     font-size: 1.6em;
