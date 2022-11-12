@@ -10,7 +10,7 @@ $(document).ready(function stickyNavbar(){
     windows.on('scroll', function(){
         var scroll = windows.scrollTop();
         var navbarHeight = sticky.height();
-        t();
+       
 
         if (screenSize >= 320){
             if (scroll > navbarHeight){
@@ -31,12 +31,7 @@ $(document).ready(function stickyNavbar(){
             }
         }  
     
-        var y = window.scrollY;
-        var x = document.getElementById("#polarid").getBoundingClientRect().top;
-        
-        if (y >= x) {
-            document.getElementById("#polarid").style.animation = "FadeIn 1s linear 0s 1 forwards";
-        } 
+       
         
 
 
