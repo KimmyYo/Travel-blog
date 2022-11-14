@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- main page -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:description" content="A travel website.">
+    <meta property="og:site_name" content="Travel to Travel">
+    <meta property="og:locale" content="zh_EN">
+    <meta property="og:url" content="https://kimmyyo.github.io/Travel-blog/index.html">
+    <meta property="og:image" content="https://kimmyyo.github.io/Travel-blog/images/IMAG3471.jpg">
+    <title>Travel to Travel</title>
+    <!-- <script src="https://gist.github.com/DavidWells/18e73022e723037a50d6.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.7.13"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="script.js"></script>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW47wcJLNRymDnxasunFKdKmr0BL0mPnA&callBack=initMap"></script>
+    <script src="map.js"></script>
+</head>
+<body>
+
+   <div class="main container">
+        <div class="home sub container">
+            <!-- start of navbar  -->
+            <nav class="main_navbar" id="main_navbar">
+                <div class="navItem">
+                    <div class="logo">
+                        <a href="index.html">Travel to Travel</a>
+                    </div>
+                </div>
+                
+                <div class="navItem">
+                    <div class="anchor" id="main_menu_1">
+                        <div class="main_menu" >
+                            <div>Destination</div>
+                            <div class="drop_down icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="sub_menu">
+                            <ul class="choices" id="sub_menu_1">
+                                <li class="country_name" id="sub_country_1">US</li>
+                                <ul class="city" id="sub_sub_city_1">
+                                    <li class="city_name">New York</li>
+                                    <li class="city_name">Utah</li>
+                                </ul>
+                                <li class="country_name" id="sub_country_2">Malaysia</li>
+                                <ul class="city" id="sub_sub_city_2">
+                                    <li class="city_name">
+                                       <a href="penang.html">Penang</a>
+                                    </li>
+                                    <li class="city_name">
+                                    <a href="sabah.html">Sabah</a>
+                                    </li>
+                                    <li class="city_name">
+                                        <a href="melaka.html">Melaka</a>  
+                                    </li>
+                                </ul>
+                                <li class="country_name" id="sub_country_3">Europe</li>
+                                <ul class="city" id="sub_sub_city_3">
+                                    <li class="city_name">United Kindom</li>
+                                    <li class="city_name">Edinburg</li>
+                                </ul>
+                                <li class="country_name" id="sub_country_4">China</li>
+                                <ul class="city" id="sub_sub_city_4">
+                                    <li class="city_name">Shanghai</li>
+                                    <li class="city_name">Bejing</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="navItem">
+                    <div class="anchor" id="main_menu_2">
+                        <div class="main_menu" >
+                            <div>Travel Tips</div>
+                            <div class="drop_down icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="sub_menu">
+                            <ul class="choices" id="sub_menu_2">
+                                <li class="country_name">Transportaion</li>
+                                <li class="country_name">Food</li>
+                                <li class="country_name">Hotels</li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="sub_navbar" id="sub_navbar">
+                <div class="toggle" id="secondary_toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-align-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="6" x2="20" y2="6"></line>
+                        <line x1="10" y1="12" x2="20" y2="12"></line>
+                        <line x1="6" y1="18" x2="20" y2="18"></line>
+                    </svg>
+                </div>
+                <div class="secondary_menu" id="secondary_menu">
+                    <div class="close_icon" id="close_icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                         </svg>
+                    </div>
+                    <div class="sub_menu_items">
+                        <div class="item">
+                            Travel to Travel
+                        </div>
+                        <div class="item">
+                            <div class="select_section">
+                                Destination
+                                <div class="drop_down icon" id="secondary_drop_icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="sub_item_section" id="secondary_sub_sub_menu">
+                                <ul class="sub_choices" >
+                                    <li class="country_name">America</li>
+                                    <li class="country_name">United Kindom</li>
+                                    <li class="country_name">Malaysia</li>
+                                    <li class="country_name">China</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                      
+                        <div class="item">
+                            Travel Tips
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- end of navbar -->
+            
+            <div class="home title">Travel to Travel</div>
+          
+        </div>
+        <div class="cities sub container" style="height: auto;">
+            <div class="all_countries flex">
+                <div class="countries flex">
+                    
+                    <div class="countries_img">
+                        <!-- <img src="images/2019-06-30-09-25-01.jpg"> -->
+                    </div>
+                    <div class="countries_label">USA</div>
+                </div>
+                <div class="countries flex">
+                    
+                    <div class="countries_img">
+                        
+                    </div>
+                    <div class="countries_label">UK</div>
+                </div>
+                <div class="countries flex">
+                    
+                    <div class="countries_img">
+                        
+                    </div>
+                    <div class="countries_label">MALAYSIA</div>
+                </div>
+                <div class="countries flex">
+                    
+                    <div class="countries_img">
+                        
+                    </div>
+                    <div class="countries_label">CHINA</div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="cities sub container" style="height: 130vh;">
+            <div class="about_us">
+                <div class="title">About US</div>
+                <div class="profile" id="even">
+                    <div class="photo">
+                       <img src="https://kimmyyo.github.io/IMG_5366.jpg">
+                    </div>
+                    <div class="info">
+                        <div class=name>Kimmy</div>
+                        <p class="paragraph">Hey, it's Kimmy. Happy to work on web programming. But it waste time.</p>
+                    </div>
+                </div>
+                <div class="profile" id="odd">
+                    <div class="info">
+                        <div class=name>Dan</div>
+                        <p class="paragraph">I'm showering. I go showering. I love web programming.</p>
+                    </div>
+                    <div class="photo">
+                        <img src="https://kimmyyo.github.io/IMG_5366.jpg">
+                    </div>
+                    
+                </div>
+                <div class="profile" id="even">
+                    <div class="photo">
+                        <img src="https://kimmyyo.github.io/IMG_5366.jpg">
+                    </div>
+                    <div class="info">
+                        <div class=name>Liu, Chien-Yu</div>
+                        <p class="paragraph">I drawed the logo. I went to China.</p>
+                    </div>
+                </div>
+                <div class="profile" id="odd">
+                    
+                    <div class="info">
+                        <div class=name>Judy</div>
+                        <p class="paragraph">I give the  travel tips.</p>
+                    </div>
+                    <div class="photo">
+                        <img src="https://kimmyyo.github.io/IMG_5366.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="footer sub container">
+           <div class="flex">
+               <img src="images/footer_logo.png">
+           </div>
+           <div class="flex">
+                
+                <ul>
+                    <li>Destination</li>
+                    <li id="hey">
+                        United State
+                        <!-- <ul class="us_states" style="display: none;">
+                            <li>New York</li>
+                            <li>Washinton</li>
+                            <li>Philadelphia</li>
+                        </ul> -->
+                    </li>
+                    
+                    <li>United Kingdom</li>
+                    <li>Malaysia</li>
+                    <li>China</li>
+                </ul>
+           </div>
+           <div class="flex">
+            <ul>
+                <li>Travel Tips</li>
+                <li id="hey">
+                    Transportaion
+                </li>
+                
+                <li>Food</li>
+                <li>Hotels</li>
+            </ul>
+           </div>
+        </div>
+   </div>
+
+</body>
+</html>
