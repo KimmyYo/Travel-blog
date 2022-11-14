@@ -1,0 +1,57 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#home{  
+    /* background-image: url(images/london/205.jpg);  */
+    
+    /* min-width: none; */
+    /* min-height: 100vh;  */
+    /* width: 100%;  */
+    /* height: 700px; */
+    /* display: flexbox; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+} 
+/* .big{ 
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+} */
+#london-title{
+    background-image: url(images/london/208.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+}
+
+ /* .home-content>img{  
+    text-transform: none;
+    width: 100%;
+    background-position: center bottom;
+} */
+.home-content >.name {
+    text-transform: none;
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.big>p{
+    text-align: center;
+}
+.article{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+.pic1{
+    width: 750px;
+}
