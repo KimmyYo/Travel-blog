@@ -1,0 +1,26 @@
+@media screen and (max-width: 1366px){
+
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 768px){
+    #sub_navbar{
+        display: flex;
+    }
+    #main_navbar{
+        display: none;
+    }   
+    
+}
+@media screen and (max-width: 375px){
+    #sub_navbar{
+        display: flex;
+    }
+    #main_navbar{
+        display: none;
+    }
+
+}
