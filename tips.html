@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tips</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="main container">
+        <div class="home sub container" id="tips_banner">
+            <nav class="main_navbar" id="main_navbar">
+                <div class="navItem">
+                    <div class="logo">
+                        <a href="index.html">Travel to Travel</a>
+                    </div>
+                </div>
+                
+                <div class="navItem">
+                    <div class="anchor" id="main_menu_1">
+                        <div class="main_menu" >
+                            <div>Destination</div>
+                            <div class="drop_down icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="sub_menu">
+                            <ul class="choices" id="sub_menu_1">
+                                <li class="country_name" id="sub_country_1">US</li>
+                                <ul class="city" id="sub_sub_city_1">
+                                    <li class="city_name">New York</li>
+                                    <li class="city_name">Utah</li>
+                                </ul>
+                                <li class="country_name" id="sub_country_2">Malaysia</li>
+                                <ul class="city" id="sub_sub_city_2">
+                                    <li class="city_name">
+                                       <a href="penang.html">Penang</a>
+                                    </li>
+                                    <li class="city_name">
+                                    <a href="sabah.html">Sabah</a>
+                                    </li>
+                                    <li class="city_name">
+                                        <a href="melaka.html">Melaka</a>  
+                                    </li>
+                                </ul>
+                                <li class="country_name" id="sub_country_3">Europe</li>
+                                <ul class="city" id="sub_sub_city_3">
+                                    <li class="city_name">United Kindom</li>
+                                    <li class="city_name">Edinburg</li>
+                                </ul>
+                                <li class="country_name" id="sub_country_4">China</li>
+                                <ul class="city" id="sub_sub_city_4">
+                                    <li class="city_name">Shanghai</li>
+                                    <li class="city_name">Bejing</li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="navItem">
+                    <div class="anchor" id="main_menu_2">
+                        <div class="main_menu" >
+                            <div>Travel Tips</div>
+                            <div class="drop_down icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="sub_menu">
+                            <ul class="choices" id="sub_menu_2">
+                                <li class="country_name"><a href="tips.html#FOOD">Transportation</a></li>
+                                <li class="country_name"><a href="tips.html#TRANSPORTAION">Food</a></li>
+                                <li class="country_name"><a href="tips.html#HOTELS">Hotels</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- phone navbar -->
+            <div class="sub_navbar" id="sub_navbar">
+                <div class="toggle" id="secondary_toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-align-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <line x1="4" y1="6" x2="20" y2="6"></line>
+                        <line x1="10" y1="12" x2="20" y2="12"></line>
+                        <line x1="6" y1="18" x2="20" y2="18"></line>
+                    </svg>
+                </div>
+                <div class="secondary_menu" id="secondary_menu">
+                    <div class="close_icon" id="close_icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                         </svg>
+                    </div>
+                    <div class="sub_menu_items">
+                        <div class="item">
+                            Travel to Travel
+                        </div>
+                        <div class="item">
+                            <div class="select_section">
+                                Destination
+                                <div class="drop_down icon" id="secondary_drop_icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <polyline points="6 9 12 15 18 9"></polyline>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="sub_item_section" id="secondary_sub_sub_menu">
+                                <ul class="sub_choices" >
+                                    <li class="country_name">America</li>
+                                    <li class="country_name">United Kindom</li>
+                                    <li class="country_name">Malaysia</li>
+                                    <li class="country_name">China</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                      
+                        <div class="item">
+                            Travel Tips
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <!-- end of navbar -->
+            <div class="home title">Travel Tips</div>
+        </div>
+        <div class="the_article">
+            <article>
+                <!-- <div class="title">Travel Tips</div> -->
+                <!-- <div class="content">
+                    <div class="quote">A state with Chinese, Malaysian, and Indian culture.</div>
+                    <div class="quote">A place full of delicious food.</div>
+                    <div class="quote">Beautiful street and building while you're sightseeing.</div>
+                </div> -->
+
+                <div class="content" id="TRANSPORTAION">
+                    <div class="sub_title">Transportation</div>
+                    <p class="paragraph">
+                        What
+                    </p>
+                    <ul class="image flex">
+                        <li>
+                            <img src="images/2019-07-03-11-05-04.jpg">
+                        </li>
+                        <!-- <li>
+                            <img src="images/20190702_171245.jpg">
+                        </li> -->
+                        <li>
+                            <img src="images/20190703_095500.jpg">
+                        </li>
+                    </ul>   
+                </div>
+                <div class="content" id="FOOD">
+                    <div class="sub_title">Food</div>
+                    <p class="paragraph">
+                        So delicious
+                    </p>
+                </div>
+                <div class="content" id="HOTELS">
+                    <div class="sub_title">Hotels</div>
+                    <p class="paragraph">
+                       live here
+                    </p>
+                    <ul class="image flex">
+                        <li>
+                            <img src="images/2019-07-04-11-02-56.jpg">
+                        </li>
+                        <li>
+                            <img src="images/2019-07-04-17-52-10.jpg">
+                        </li>
+                        <li>
+                            <img src="images/2019-07-04-11-44-47.jpg">
+                        </li>
+                        <li>
+                            <img src="images/2019-07-04-13-57-40.jpg">
+                        </li>
+                        <!-- <li>
+                            <img src="images/2019-07-04-16-15-51.jpg">
+                        </li> -->
+                        <li>
+                            <img src="images/2019-07-04-16-44-18.jpg">
+                        </li>
+                    </ul>
+                   
+                </div>
+            </article>
+        </div>
+        <div class="footer sub container">
+            
+        </div>
+       
+
+    </div>
+</body>
+</html>
