@@ -40,6 +40,7 @@ p{
     opacity: 1;
     /* filter: blur(0); */
     transform: translateY(0);
+   
 }
 
 .main.container{
@@ -788,7 +789,8 @@ article .content .image.flex{
     
     width: 100%;
     min-width: 300px;
-    height: auto;
+    min-height: 170px;
+    /* height: auto; */
 
 }
 
@@ -798,7 +800,9 @@ article .content .image.flex{
     background-color: #f9f6f1;
     border-radius: 50%;
     width: 170px;
+    min-width: 150px;
     height: 170px;
+    min-width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;

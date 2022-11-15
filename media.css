@@ -28,8 +28,9 @@
     }
 
     
-    .about_us .profile{
-        grid-template-columns: repeat(6, 0.5fr);
+  
+    #countries_select_section{
+        height: 200vh;
     }
 }
 @media screen and (max-width: 375px){
@@ -53,5 +54,8 @@
         text-align: left;
     }
 
+    #countries_select_section{
+        height: 200vh;
+    }
 
 }
