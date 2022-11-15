@@ -77,6 +77,17 @@ nav .navItem{
     padding: 1em;
     height: auto;
 }
+nav .navItem .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+nav .navItem .logo a img{
+    width: 200px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
 
 nav .navItem .anchor{
     display: flex;
@@ -252,7 +263,7 @@ nav .navItem .anchor .choices .city{
    width: 100%;
    min-width: 200px;
    height: 70vh;
-   background-image: url('malaysia/images/2019-07-04-10-51-47.jpg');
+   background-image: url('images/2019-07-04-10-51-47.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    margin-bottom: 5rem;
@@ -401,7 +412,7 @@ nav .navItem .anchor .choices .city{
 
 /* article */
 #penang_banner{
-    background-image: url("malaysia/images/2019-07-04-11-44-30.jpg"); 
+    background-image: url("images/2019-07-04-11-44-30.jpg"); 
     background-repeat: no-repeat;
     background-size: cover; 
     width: 100%;
@@ -410,7 +421,7 @@ nav .navItem .anchor .choices .city{
     overflow: hidden;
 }
 #sabah_banner{
-    background-image: url("malaysia/images/IMAG3471.jpg"); 
+    background-image: url("images/IMAG3471.jpg"); 
     background-repeat: no-repeat;
     background-size: cover; 
     width: 100%;
@@ -420,7 +431,7 @@ nav .navItem .anchor .choices .city{
     overflow: hidden;
 }
 #melaka_banner{
-    background-image: url("malaysia/images/2019-07-05-23-09-14.jpg"); 
+    background-image: url("images/2019-07-05-23-09-14.jpg"); 
     background-repeat: no-repeat;
     background-size: cover; 
     width: 100%;
@@ -603,6 +614,10 @@ article .content .image.flex{
     flex-wrap: wrap;
     height: 100vh;
 }
+.countries_title{
+    font-size: 3em;
+    text-align: center;
+}
 
 .countries.flex{
     width: 300px;
@@ -664,7 +679,7 @@ article .content .image.flex{
     
     padding: 3em;
 }
-.about_us .title{
+.home_page.title{
     font-size: 3em;
     
 }
