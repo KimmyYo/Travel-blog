@@ -71,6 +71,12 @@ nav .navItem{
     height: auto;
 }
 
+nav .navItem .logo a img{
+    width: 200px;
+    height: auto;
+    mix-blend-mode: multiply;
+}
+
 nav .navItem .anchor{
     display: flex;
     flex-direction: column;
