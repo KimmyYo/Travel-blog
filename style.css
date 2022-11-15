@@ -298,6 +298,24 @@ nav .navItem .anchor .choices .city{
    grid-template-rows: 70px 1fr;
 }
 
+.home .sub .container .background{
+   width: 100%;
+   min-width: 200px;
+   height: 70vh;
+   background-image: url('images/甘肅沙漠.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-bottom: 5rem;
+
+   /* display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center; */
+   display: grid;
+   grid-template-rows: 70px 1fr;
+}
+
+
 .sub.container .home.title{
     text-align: left;
     color: rgb(255, 254, 254);
