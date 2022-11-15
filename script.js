@@ -1,4 +1,25 @@
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        } else{
+            entry.target.classList.remove("show");
+        }
+    })
+})
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
+
+
+
+
+
+
+
 $(document).ready(function stickyNavbar(){
+
 
     var windows = $(window);
     var screenSize = windows.width();
@@ -52,7 +73,6 @@ $(document).ready(function stickyNavbar(){
     click_func($("#hey"), $("#us_states"));
     
   
-
     
 
 })
@@ -77,6 +97,12 @@ function box_hover(be_hovered, to_show) {
             to_show.toggle();
       });
 }
+
+
+
+
+
+
 
 
 

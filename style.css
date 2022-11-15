@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,600;1,600;1,700&family=Montserrat:wght@500&family=Oswald:wght@300;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&family=Signika+Negative:wght@500;600&display=swap');
 
 
-.flex{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1em;
@@ -30,6 +24,24 @@ ul, li{
 p{
     line-height: 1.5em;
 }
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hidden{
+    opacity: 0;
+    /* filter:blur(5px); */
+    transform: translateY(30%);
+    transition: all 1s;
+    
+}
+.show{
+    opacity: 1;
+    /* filter: blur(0); */
+    transform: translateY(0);
+}
+
 .main.container{
     height: 100vh;
     width: 100%;
@@ -263,7 +275,7 @@ nav .navItem .anchor .choices .city{
    width: 100%;
    min-width: 200px;
    height: 70vh;
-   background-image: url('images/2019-07-04-10-51-47.jpg');
+   background-image: url('malaysia/images/2019-07-04-10-51-47.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    margin-bottom: 5rem;
@@ -286,8 +298,14 @@ nav .navItem .anchor .choices .city{
     display: flex;
     align-items: center;
     justify-content: center;
-   
+
 }
+
+#homepage_banner{
+    height: 100vh;
+}
+
+
 .sub.container.cities{
     height:50vh;
     /* padding-top: 5em; */
@@ -412,7 +430,7 @@ nav .navItem .anchor .choices .city{
 
 /* article */
 #penang_banner{
-    background-image: url("images/2019-07-04-11-44-30.jpg"); 
+    background-image: url("malaysia/images/2019-07-04-11-44-30.jpg"); 
     background-repeat: no-repeat;
     background-size: cover; 
     width: 100%;
@@ -421,7 +439,7 @@ nav .navItem .anchor .choices .city{
     overflow: hidden;
 }
 #sabah_banner{
-    background-image: url("images/IMAG3471.jpg"); 
+    background-image: url("malaysia/images/IMAG3471.jpg"); 
     background-repeat: no-repeat;
     background-size: cover; 
     width: 100%;
@@ -431,7 +449,7 @@ nav .navItem .anchor .choices .city{
     overflow: hidden;
 }
 #melaka_banner{
-    background-image: url("images/2019-07-05-23-09-14.jpg"); 
+    background-image: url("malaysia/images/2019-07-05-23-09-14.jpg"); 
     background-repeat: no-repeat;
     background-size: cover; 
     width: 100%;
@@ -530,32 +548,59 @@ article .content .image.flex{
     vertical-align: middle;
    
   }
-
 .footer.sub.container{
-      background-color: #332c2c;
+    display: flex;
+    flex-direction: column;
+    background-color: #332c2c;
+    height: auto;
+    min-width: 300px;
+}
+
+.footer.sub.container .horizon_part{
+      
+      
       height: auto;
       display: flex;
       flex-direction: row;
-      gap: 5em;
+      gap: 4em;
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
+      /* justify-content: flex-start; */
+      border-bottom: 2px solid #9c9c9c;
 }
 
 .footer .flex{
     width: 300px;
     height: 300px;
-    font-size: 1.3em;
-    color: white;
-    padding: 50px;
+    font-size: 1em;
+    font-weight: 300;
+    color: rgb(172, 169, 169);
+    /* padding: 50px; */
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
+    
 }
-
-.footer .flex img{
-    width: 270px;
-    height: 250px;
+.footer .flex:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 3em;;
+}
+.footer .flex:nth-child(4){
+    width: 200px;
+    height: 200px;
+    background-image: url("malaysia/images/footer_logo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
 }
 
 .footer .flex ul, li{
@@ -564,9 +609,31 @@ article .content .image.flex{
     cursor: pointer;
 }
 
+.footer .bottom_part{
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #9c9c9c;
+    padding: 1em;
+}
 
-#us_states{
+.footer .bottom_part .icon_section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: black;
    
+}
+
+.footer .bottom_part .icon_section .icon{
+    width: 20px;
+    height: 20px;
+    
+    background-color: #9c9c9c;
+    border-radius: 50%;
+    text-align: center;
 }
 
 
@@ -605,6 +672,14 @@ article .content .image.flex{
 
 
 /* home page css */
+#countries_select_section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
 .all_countries.flex{
     display: flex;
     flex-direction: row;
@@ -612,11 +687,15 @@ article .content .image.flex{
     justify-content: center;
     gap: 1.5em;
     flex-wrap: wrap;
-    height: 100vh;
+    margin-top:5em;
+
+    /* height: 100vh; */
 }
-.countries_title{
+#countries_select_section .title{
     font-size: 3em;
-    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+
 }
 
 .countries.flex{
@@ -640,22 +719,22 @@ article .content .image.flex{
 }
 
 .countries.flex:first-child{
-    background-image: url("images/2019-06-30-09-25-01.jpg");
+    background-image: url("malaysia/images/2019-06-30-09-25-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .countries.flex:nth-child(2){
-    background-image: url("images/2019-07-02-17-03-41.jpg");
+    background-image: url("malaysia/images/2019-07-02-17-03-41.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .countries.flex:nth-child(3){
-    background-image: url("images/2019-07-03-11-05-04.jpg");
+    background-image: url("malaysia/images/2019-07-03-11-05-04.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .countries.flex:nth-child(4){
-    background-image: url("images/2019-07-04-11-44-30.jpg");
+    background-image: url("malaysia/images/2019-07-04-11-44-30.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -668,48 +747,38 @@ article .content .image.flex{
 
 }
 
-
+#about_us_section{
+    height: auto;
+}
 .about_us{
     display: flex;
     flex-direction: column;
     gap: 3em;
-
+   
     background-color: #968878;
     color: black;
     
     padding: 3em;
 }
-.home_page.title{
+.about_us .title{
     font-size: 3em;
-    
+
 }
 
 .about_us .profile{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    /* gap: 3em; */
+    display: flex;
+    flex-direction: row; 
+    /* flex-wrap: wrap; */
+    justify-content:space-between;
+    align-items: center;
+    gap: 3em;
+    
     width: 100%;
     min-width: 300px;
     height: auto;
 
 }
-#even .photo{
-    grid-column-start: 1;
-    grid-column-end: 1;
-}
-#even .info{
-    grid-column-start: 2;
-    grid-column-end: 5;
-}
 
-#odd .info{
-    grid-column-start: 3;
-    grid-column-end: 6;
-}
-#odd .photo{
-    grid-column-start: 6;
-    grid-column-end: 7;
-}
 
 .about_us .profile .photo{
     
@@ -726,13 +795,15 @@ article .content .image.flex{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    ;
+    
     
 }
-
+.about_us .profile .space{
+    width: 100px;
+}
 .about_us .profile .info{
-   
-    /* padding-bottom: 100px; */
+    
+    width: 500px;
     font-size: 1.3em;
     font-weight: 300;
     padding-top: 30px;
@@ -743,3 +814,19 @@ article .content .image.flex{
     font-weight: 500;
 }
 
+.about_us .profile:nth-child(2){
+    justify-content: flex-start;
+}
+.about_us .profile:nth-child(4){
+    justify-content: flex-start;
+}
+.about_us .profile:nth-child(3){
+   
+    justify-content: flex-end;
+  
+}
+.about_us .profile:nth-child(5){
+   
+    justify-content: flex-end;
+  
+}
