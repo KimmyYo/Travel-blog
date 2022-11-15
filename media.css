@@ -1,0 +1,57 @@
+@media screen and (max-width: 1366px){
+
+}
+
+@media screen and (max-width: 1024px){
+    
+}
+
+@media screen and (max-width: 768px){
+    #sub_navbar{
+        display: flex;
+    }
+    #main_navbar{
+        display: none;
+    }   
+
+    body{
+        font-size: 0.8em;
+        
+    }
+
+    article .title{
+        padding: 1em;
+        text-align: left;
+    }
+    article .quote{
+        text-align: left;
+    }
+
+    
+    .about_us .profile{
+        grid-template-columns: repeat(6, 0.5fr);
+    }
+}
+@media screen and (max-width: 375px){
+    #sub_navbar{
+        display: flex;
+    }
+    #main_navbar{
+        display: none;
+    }
+
+   
+    body{
+        font-size: 0.8em;
+    }
+
+    article .title{
+        padding: 1em;
+        text-align: left;
+    }
+    article .quote{
+        text-align: left;
+    }
+
+
+}
