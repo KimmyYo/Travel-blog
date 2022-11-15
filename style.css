@@ -299,7 +299,7 @@ nav .navItem .anchor .choices .city{
    grid-template-rows: 70px 1fr;
 }
 
-.home .sub .container .background{
+.background{
    width: 100%;
    min-width: 200px;
    height: 70vh;
