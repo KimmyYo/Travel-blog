@@ -285,7 +285,7 @@ nav .navItem .anchor .choices .city{
    width: 100%;
    min-width: 200px;
    height: 70vh;
-   background-image: url('malaysia/images/2019-07-04-10-51-47.jpg');
+   background-image: url('images/甘肅沙漠.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    margin-bottom: 5rem;
@@ -607,7 +607,7 @@ article .content .image.flex{
 .footer .flex:nth-child(4){
     width: 200px;
     height: 200px;
-    background-image: url("malaysia/images/footer_logo.png");
+    background-image: url("navbar_logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -799,6 +799,7 @@ article .content .image.flex{
     
     background-color: #f9f6f1;
     border-radius: 50%;
+    border: 2px soild black;
     width: 170px;
     min-width: 150px;
     height: 170px;
@@ -847,3 +848,21 @@ article .content .image.flex{
     justify-content: flex-end;
   
 }
+
+/*tips css*/
+
+.tips_sub_title{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.tips{
+    font-size: 1.5em;
+    margin: 40px 0px 40px 0px;
+}
+
+.tips_spacing{
+    height: 4em;
+}
+
+/*tips css end*/
