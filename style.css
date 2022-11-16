@@ -810,6 +810,10 @@ article .content .image.flex{
     /* filter: brightness(70%); */
     color: white;
 }
+.countries.flex a{
+    color: white;
+    
+}
 
 .countries.flex:first-child{
     background-image: url("images/usa_jfkairport.jpg");
