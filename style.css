@@ -964,38 +964,34 @@ article .content .image.flex{
 }
 
 #newyork_banner{
-    width: 100%;
-    min-width: 900px;
-    height: 570px;
-    background-image: url('us/images/wallstreetstockex.jpg');
+    background-image: url('us/images/wallstreetstockex.jpg'); 
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: column;
+    background-size: cover; 
+    width: 100%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
 }
 
+
 #washington_banner{
-    width: 100%;
-    min-width: 900px;
-    height: 570px;
     background-image: url('us/images/blossom.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: column;
+    background-size: cover; 
+    width: 100%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
 }
 
 #philadelphia_banner{
-    width: 100%;
-    min-width: 900px;
-    height: 570px;
-    background-image: url('us/images/philadelphiastreet.jpg');
+    background-image: url("us/images/philadelphiastreet.jpg"); 
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: column;
+    background-size: cover; 
+    width: 100%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
 }
+
 /*usa & cities banner photo end*/
