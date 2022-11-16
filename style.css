@@ -628,7 +628,7 @@ article .content .image.flex{
 .footer .flex:nth-child(4){
     width: 200px;
     height: 200px;
-    background-image: url("navbar_logo.png");
+    background-image: url("images/navbar_logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
