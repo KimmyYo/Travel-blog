@@ -517,7 +517,7 @@ nav .navItem .anchor .choices .city{
     width: 100%;
     min-width: 900px;
     height: 570px;
-    background-image: url('images/北京封面.jpg');
+    background-image: url('china/images/北京封面.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5rem;
@@ -529,7 +529,7 @@ nav .navItem .anchor .choices .city{
     width: 100%;
     min-width: 900px;
     height: 570px;
-    background-image: url('images/甘肅封面.jpg');
+    background-image: url('china/images/甘肅封面.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5rem;
@@ -541,7 +541,7 @@ nav .navItem .anchor .choices .city{
     width: 100%;
     min-width: 900px;
     height: 570px;
-    background-image: url('images/上海封面.jpg');
+    background-image: url('china/images/上海封面.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 5rem;
