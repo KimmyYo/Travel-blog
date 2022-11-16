@@ -460,6 +460,7 @@ article .content .image.flex{
 /*hidden show effect end*/
 
 /*footer css start*/
+/* footer */
 .footer.sub.container{
     display: flex;
     flex-direction: column;
@@ -485,7 +486,7 @@ article .content .image.flex{
 .footer .flex{
     width: 300px;
     height: 300px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 300;
     color: rgb(172, 169, 169);
     /* padding: 50px; */
@@ -494,9 +495,6 @@ article .content .image.flex{
     justify-content: center;
     align-items: flex-start;
     
-}
-.footer .flex a{
-    color: rgb(172, 169, 169);
 }
 .footer .flex:first-child{
     display: flex;
@@ -508,7 +506,7 @@ article .content .image.flex{
 .footer .flex:nth-child(4){
     width: 200px;
     height: 200px;
-    background-image: url("images/navbar_logo.png");
+    background-image: url("malaysia/images/footer_logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -550,4 +548,5 @@ article .content .image.flex{
     border-radius: 50%;
     text-align: center;
 }
+
 /*footer css end*/
