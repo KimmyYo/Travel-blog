@@ -249,6 +249,11 @@ nav .navItem .anchor .choices .city{
     border-bottom: 1px soild #ececec;
    
 }
+
+#sub_navbar .secondary_menu .sub_menu_items .item img{
+    width: 200px;
+    height: auto;
+}
 #sub_navbar .secondary_menu .sub_menu_items .item .sub_item_section{
     display: none;
 }
