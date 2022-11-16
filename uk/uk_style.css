@@ -523,7 +523,7 @@ article .content .image.flex{
    
   }
 
-.footer.sub.container{
+  .footer.sub.container{
     display: flex;
     flex-direction: column;
     background-color: #332c2c;
@@ -568,7 +568,7 @@ article .content .image.flex{
 .footer .flex:nth-child(4){
     width: 200px;
     height: 200px;
-    background-image: url("malaysia/images/footer_logo.png");
+    background-image: url("navbar_logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
