@@ -28,7 +28,7 @@
     }
 
     
-    .sub.container .home .title{
+    .sub.container .home.title{
        padding: 1em;
     }
 
@@ -61,7 +61,7 @@
         height: 200vh;
     }
     
-    .sub.container .home .title{
+    .sub.container .home.title{
        padding: 1em;
     }
 
