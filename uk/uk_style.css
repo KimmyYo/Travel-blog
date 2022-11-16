@@ -508,18 +508,18 @@ article .content .image.flex{
     width: 100%;
 }
 /*hidden show effect start*/
-/* .hidden{
+.hidden{
     opacity: 0;
     /* filter:blur(5px); */
     transform: translateY(30%);
     transition: all 1s;
     
-} */
-/* .show{ 
+}
+.show{ 
     opacity: 1;
     /* filter: blur(0); */
     transform: translateY(0);
-}*/
+}
 /*hidden show effect end*/
 
 .image.flex > li {
