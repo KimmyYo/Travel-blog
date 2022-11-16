@@ -1,4 +1,25 @@
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry);
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        } else{
+            entry.target.classList.remove("show");
+        }
+    })
+})
+
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((el) => observer.observe(el));
+
+
+
+
+
+
+
 $(document).ready(function stickyNavbar(){
+
 
     var windows = $(window);
     var screenSize = windows.width();
@@ -49,9 +70,9 @@ $(document).ready(function stickyNavbar(){
     click_func($("#secondary_toggle"), $("#secondary_menu"));
     click_func($("#close_icon"), $("#secondary_menu"));
     click_func($("#secondary_drop_icon"), $("#secondary_sub_sub_menu"));
+    click_func($("#hey"), $("#us_states"));
     
   
-
     
 
 })
@@ -76,6 +97,12 @@ function box_hover(be_hovered, to_show) {
             to_show.toggle();
       });
 }
+
+
+
+
+
+
 
 
 
@@ -143,5 +170,3 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
-    
-    
