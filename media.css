@@ -71,6 +71,11 @@
         padding: 0.8em;
         line-height: 1.2;
     }
+    
+    #polarid{
+        height: 100vh;
+        
+    }
 
 
 }
