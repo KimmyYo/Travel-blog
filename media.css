@@ -66,6 +66,11 @@
     .sub.container .home.title{
        padding: 1em;
     }
+    
+    #countries_select_section .title{
+        padding: 0.8em;
+        line-height: 1.2;
+    }
 
 
 }
