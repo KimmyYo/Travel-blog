@@ -37,6 +37,11 @@
     #countries_select_section{
         height: 200vh;
     }
+    
+    #countries_select_section .title{
+        padding: 0.8em;
+        line-height: 1.2;
+    }
 }
 @media screen and (max-width: 375px){
     #sub_navbar{
