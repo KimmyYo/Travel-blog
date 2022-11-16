@@ -28,7 +28,10 @@
     }
 
     
-  
+    .sub.container .home .title{
+       padding: 1em;
+    }
+
     #countries_select_section{
         height: 200vh;
     }
@@ -57,5 +60,10 @@
     #countries_select_section{
         height: 200vh;
     }
+    
+    .sub.container .home .title{
+       padding: 1em;
+    }
+
 
 }
