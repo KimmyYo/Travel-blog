@@ -339,6 +339,13 @@ nav .navItem .anchor .choices .city{
     height: 100vh;
 }
 
+#malaysia_banner{
+    background-image: url("malaysia/images/2019-07-04-10-51-47.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 .sub.container.cities{
     height:50vh;
