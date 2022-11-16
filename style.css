@@ -669,6 +669,10 @@ article .content .image.flex{
 .footer .flex a{
     color: rgb(172, 169, 169);
 }
+
+.footer .flex a:hover{
+    color: white;
+}
 .footer .flex:first-child{
     display: flex;
     flex-direction: row;
@@ -940,7 +944,9 @@ article .content .image.flex{
 .tips_spacing{
     height: 4em;
 }
-
+.tips_list strong{
+    line-height: 4em;
+}
 /*tips css end*/
 
 /*usa & cities banner photo start*/
