@@ -503,6 +503,35 @@ nav .navItem .anchor .choices .city{
     color: #42342e;
     overflow: hidden;
 }
+#london_banner{
+    background-image: url("uk/images/london/205.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
+}
+#edinburgh_banner{
+    background-image: url("uk/images/edinburgh/105.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    background-position: 25% 75%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
+}
+#york_banner{
+    background-image: url("uk/images/york/309.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    background-position: 30%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
+}
 .the_article{
     min-width: 300px;
     max-width: 960px;
