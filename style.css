@@ -752,12 +752,12 @@ article .content .image.flex{
 }
 
 .countries.flex:first-child{
-    background-image: url("malaysia/images/2019-06-30-09-25-01.jpg");
+    background-image: url("usa_jfkairport.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .countries.flex:nth-child(2){
-    background-image: url("usa_jfkairport.jpg");
+    background-image: url("malaysia/images/2019-06-30-09-25-01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
