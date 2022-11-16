@@ -128,13 +128,21 @@ nav .navItem .anchor #sub_menu_1, #sub_menu_2{
 }
 
 /* sub menu items */
+/* nav .navItem .anchor .choices li.country_name, li.city_name{  
+    margin-bottom: 10px;  
+    color: black;
+}*/
+/* nav .navItem .anchor .choices li.city_name{  
+    font-size: 1em;
+    font-weight: 300;
+}*/
 nav .navItem .anchor .choices li.country_name, li.city_name{ 
     margin-bottom: 10px;  
     color: black;
-}
-nav .navItem .anchor .choices li.city_name{ 
-    font-size: 1em;
-    font-weight: 300;
+    display: flex;
+    font-size:1em
+   
+
 }
 
 nav .navItem .anchor .choices li.country_name:hover, li.city_name:hover, li.city_name a:hover{
