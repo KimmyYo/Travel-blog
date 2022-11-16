@@ -344,7 +344,17 @@ nav .navItem .anchor .choices .city{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#china_banner{
+    width: 100%;
+    min-width: 900px;
+    height: 570px;
+    background-image: url('china/images/中國封面.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
 
 
 .sub.container.cities{
@@ -503,34 +513,40 @@ nav .navItem .anchor .choices .city{
     color: #42342e;
     overflow: hidden;
 }
-#london_banner{
-    background-image: url("uk/images/london/205.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover; 
+#Beijing_banner{
     width: 100%;
-    max-height: 70vh;
-    color: #42342e;
-    overflow: hidden;
+    min-width: 900px;
+    height: 570px;
+    background-image: url('images/北京封面.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
 }
-#edinburgh_banner{
-    background-image: url("uk/images/edinburgh/105.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover; 
+
+#Gansu_banner{
     width: 100%;
-    background-position: 25% 75%;
-    max-height: 70vh;
-    color: #42342e;
-    overflow: hidden;
+    min-width: 900px;
+    height: 570px;
+    background-image: url('images/甘肅封面.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
 }
-#york_banner{
-    background-image: url("uk/images/york/309.jpg"); 
-    background-repeat: no-repeat;
-    background-size: cover; 
+
+#Shanghai_banner{
     width: 100%;
-    background-position: 30%;
-    max-height: 70vh;
-    color: #42342e;
-    overflow: hidden;
+    min-width: 900px;
+    height: 570px;
+    background-image: url('images/上海封面.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
 }
 .the_article{
     min-width: 300px;
