@@ -23,6 +23,12 @@ ul, li{
 p{
     line-height: 1.5em;
 }
+.flex{
+    display: flex;
+    align-items: center;
+    justify_content:center;
+}
+
 .main.container{
     height: 100vh;
     width: 100%;
@@ -68,6 +74,12 @@ nav .navItem{
     align-items: center;
     gap: 1.1em;
     padding: 1em;
+    height: auto;
+}
+nav .navItem .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: auto;
 }
 
@@ -132,10 +144,10 @@ nav .navItem .anchor #sub_menu_1, #sub_menu_2{
     margin-bottom: 10px;  
     color: black;
 }*/
-/* nav .navItem .anchor .choices li.city_name{  
+nav .navItem .anchor .choices li.city_name{  
     font-size: 1em;
     font-weight: 300;
-}*/
+}
 nav .navItem .anchor .choices li.country_name, li.city_name{ 
     margin-bottom: 10px;  
     color: black;
