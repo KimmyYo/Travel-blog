@@ -945,3 +945,53 @@ article .content .image.flex{
 }
 
 /*tips css end*/
+
+/*usa & cities banner photo start*/
+#us_banner{
+    width: 100%;
+    min-width: 900px;
+    height: 570px;
+    background-image: url('usa/images/statueofliberty.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#newyork_banner{
+    width: 100%;
+    min-width: 900px;
+    height: 570px;
+    background-image: url('usa/images/wallstreetstockex.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#washington_banner{
+    width: 100%;
+    min-width: 900px;
+    height: 570px;
+    background-image: url('usa/images/blossom.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#philadelphia_banner{
+    width: 100%;
+    min-width: 900px;
+    height: 570px;
+    background-image: url('usa/images/philadelphiastreet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+/*usa & cities banner photo end*/
