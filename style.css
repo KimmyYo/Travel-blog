@@ -514,39 +514,33 @@ nav .navItem .anchor .choices .city{
     overflow: hidden;
 }
 #Beijing_banner{
-    width: 100%;
-    min-width: 900px;
-    height: 570px;
-    background-image: url('china/images/北京封面.jpg');
+    background-image: url("china/images/北京封面.jpg"); 
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: column;
+    background-size: cover; 
+    width: 100%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
 }
 
 #Gansu_banner{
-    width: 100%;
-    min-width: 900px;
-    height: 570px;
-    background-image: url('china/images/甘肅封面.jpg');
+    background-image: url("china/images/甘肅封面.jpg"); 
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: column;
+    background-size: cover; 
+    width: 100%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
 }
 
 #Shanghai_banner{
-    width: 100%;
-    min-width: 900px;
-    height: 570px;
-    background-image: url('china/images/上海封面.jpg');
+   background-image: url("china/images/上海封面.jpg"); 
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: column;
+    background-size: cover; 
+    width: 100%;
+    max-height: 70vh;
+    color: #42342e;
+    overflow: hidden;
 }
 .the_article{
     min-width: 300px;
