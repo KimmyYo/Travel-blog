@@ -810,7 +810,7 @@ article .content .image.flex{
 }
 
 .countries.flex:first-child{
-    background-image: url("images/us_.jpg");
+    background-image: url("images/us_home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
