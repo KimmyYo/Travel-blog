@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,600;1,600;1,700&family=Montserrat:wght@500&family=Oswald:wght@300;500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400&family=Roboto:wght@300;400;500;700&family=Signika+Negative:wght@500;600&display=swap');
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.sign_log_top{
+    background-color:#f9f6f1;
+    width: 300px;
+    border: 2px solid #ffffff;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    vertical-align: baseline;
+    margin-top: 50px;
+}
+
+.hr_log_in{
+    width: 100%;
+    border: 0;
+    padding-top: 1px;
+    background: linear-gradient(to right, transparent, #A69F80, transparent);
+}
+label{
+    padding: 9px 0 7px 0px;
+    text-overflow: ellipsis;
+}
+img{
+    width: 200px;
+    height: auto;
+}
+.sign_log_bottom{
+    background-color:#f9f6f1;
+    width: 300px;
+    border: 2px solid #ffffff;
+    align-items: center;
+    text-align: center;
+    padding:20px 0 20px 0;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    vertical-align: baseline;
+}
+
+.content{
+    width: 210px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: lightslategray;
+    text-align: center;
+}
+
+.note{
+    font-size: small;
+    color: #005566;
+}
+
+.rewrite{
+    color: #C82D35;
+    font-size: small;
+}
+ 
+/* 拒絕條件：
+    1. email 太短
+    2. password 太短
+    3. password 輸錯
+ */
