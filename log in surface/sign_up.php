@@ -63,7 +63,7 @@
 
         <div class = "sign_log_bottom">
         <span> Already has account? 
-            <a herf = "log_in.php">log in</a>
+            <a href = "log_in.php">log in</a>
         </span>
     </div>
     </form>
