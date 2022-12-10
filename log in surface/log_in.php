@@ -50,7 +50,7 @@ session_start();
         
     <div class = "sign_log_bottom">
         <span> Not sign up yet? 
-            <a herf = "sign_up.php">sign up</a>
+            <a href = "sign_up.php">sign up</a>
         </span>
     </div>
 </form>
