@@ -18,7 +18,7 @@
             <nav class="main_navbar" id="main_navbar">
                 <div class="navItem">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="images/navbar_logo_word.png">
                         </a>
                     </div>
@@ -46,7 +46,7 @@
                                                 <path d="M3 21h18"></path>
                                             </svg> 
                                         </div>
-                                        <div>US</div>
+                                        <div>United States</div>
                                     </a>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -57,7 +57,7 @@
                                 </li>
                                 <ul class="city" id="sub_sub_city_1">
                                     <li class="city_name">
-                                        <a href="us/newyork.html">
+                                        <a href="us/newyork.php">
                                             <div >
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -69,7 +69,7 @@
                                         </a>
                                     </li>
                                     <li class="city_name">
-                                        <a href="us/washinton.html">
+                                        <a href="us/washinton.php">
                                             <div >
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -81,7 +81,7 @@
                                         </a>
                                     </li>
                                     <li class="city_name">
-                                        <a href="us/philadelphia.html">
+                                        <a href="us/philadelphia.php">
                                             <div >
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -114,7 +114,7 @@
                                 </li>
                                 <ul class="city" id="sub_sub_city_2">
                                     <li class="city_name">
-                                    <a href="malaysia/penang.html">
+                                    <a href="malaysia/penang.php">
                                         <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -126,7 +126,7 @@
                                         </a>
                                     </li>
                                     <li class="city_name">
-                                        <a href="malaysia/sabah.html">
+                                        <a href="malaysia/sabah.php">
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -138,7 +138,7 @@
                                         </a>
                                     </li>
                                     <li class="city_name">
-                                        <a href="malaysia/melaka.html">
+                                        <a href="malaysia/melaka.php">
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -170,7 +170,7 @@
                                 </li>
                                 <ul class="city" id="sub_sub_city_3">
                                     <li class="city_name">
-                                        <a href="uk/Edinburgh.html">
+                                        <a href="uk/Edinburgh.php">
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -183,7 +183,7 @@
                                         </a>
                                     </li>
                                     <li class="city_name">
-                                        <a href="uk/London.html">
+                                        <a href="uk/London.php">
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -195,7 +195,7 @@
                                         </a>
                                     </li>
                                     <li class="city_name">
-                                        <a href="uk/York.html">
+                                        <a href="uk/York.php">
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -208,7 +208,7 @@
                                     </li>
                                 </ul>
                                 <li class="country_name" id="sub_country_4">
-                                    <a href="china/ch_index.html">
+                                    <a href="china/ch_index.php">
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-departure" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -227,7 +227,7 @@
                                 </li>
                                 <ul class="city" id="sub_sub_city_4">
                                     <li class="city_name">
-                                        <a href="china/北京.html">
+                                        <a href="china/北京.php">
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -235,11 +235,11 @@
                                                     <path d="M3 21h18"></path>
                                                 </svg> 
                                             </div>
-                                            <div>Bejing</div>
+                                            <div>Beijing</div>
                                         </a>
                                     </li>
                                     <li class="city_name">
-                                        <a href="china/上海.html">
+                                        <a href="china/上海.php">
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -251,7 +251,7 @@
                                         </a>
                                     </li>
                                     <li class="city_name">
-                                        <a href="china/甘肅.html">
+                                        <a href="china/甘肅.php">
                                             <div>
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="16" height="16" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -282,7 +282,7 @@
                         <div class="sub_menu">
                             <ul class="choices" id="sub_menu_2">
                                 <li class="country_name">
-                                    <a href="tips.html#transportation_tips">
+                                    <a href="tips.php#transportation_tips">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-car" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                             <circle cx="7" cy="17" r="2"></circle>
@@ -291,37 +291,25 @@
                                         </svg>
                                         Transportation
                                     </a>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </li>
+                                    </li>
                                 <li class="country_name">
-                                    <a href="tips.html#food_tips">
+                                    <a href="tips.php#food_tips">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tools-kitchen-2" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                             <path d="M19 3v12h-5c-.023 -3.681 .184 -7.406 5 -12zm0 12v6h-1v-3m-10 -14v17m-3 -17v3a3 3 0 1 0 6 0v-3"></path>
                                         </svg>
                                         Food
                                     </a>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </li>
+                                    </li>
                                 <li class="country_name">
-                                    <a href="tips.html#clothing_tips">
+                                    <a href="tips.php#clothing_tips">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shirt-sport" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                                             <path d="M15 4l6 2v5h-3v8a1 1 0 0 1 -1 1h-10a1 1 0 0 1 -1 -1v-8h-3v-5l6 -2a3 3 0 0 0 6 0"></path>
                                             <path d="M10.5 11h2.5l-1.5 5"></path>
                                         </svg>
                                         Clothing
-                                    </a>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
+                                   </a>
                                 </li>
                             </ul>
                     </div>
@@ -360,17 +348,17 @@
                             </div>
                             <div class="sub_item_section" id="secondary_sub_sub_menu">
                                 <ul class="sub_choices" >
-                                    <li class="country_name"><a href="us/">US</a></li>
+                                    <li class="country_name"><a href="us/">United States</a></li>
                                     <li class="country_name"><a href="malaysia/">Malaysia</a></li>
                                     <li class="country_name"><a href="uk/">United Kingdom</a></li>
-                                    <li class="country_name"><a href="china/ch_index.html">China</a></li>
+                                    <li class="country_name"><a href="china/ch_index.php">China</a></li>
                                 </ul>
         
                             </div>
                         </div>
                     
                         <div class="item">
-                            <a href="tips.html">Travel Tips</a>
+                            <a href="tips.php">Travel Tips</a>
                         </div>
                     
                     </div>
@@ -434,24 +422,24 @@
             <div class="horizon_part">
                 <div class="flex">
                     <ul>
-                        <li class="title"><a href="index.html">Travel to Travel</a></li>
+                        <li class="title"><a href="index.php">Travel to Travel</a></li>
                     </ul>
                 </div>
                 <div class="flex">
                     <ul>
                         <li class="title">Destination</li>
-                        <li><a href="us/">United State</a></li>
+                        <li><a href="us/">United States</a></li>
                         <li><a href="uk/">United Kingdom</a></li>
                         <li><a href="malaysia/">Malaysia</a></li>
-                        <li><a href="china/ch_index.html">China</a></li>
+                        <li><a href="china/ch_index.php">China</a></li>
                     </ul>
                 </div>
                 <div class="flex">
                     <ul>
                         <li class="title">Travel Tips</li>
-                        <li><a href="tips.html#transportation_tips">Transportaion</a></li>
-                        <li><a href="tips.html#food_tips">Food</a></li>
-                        <li><a href="tips.html#clothing_tips">Clothing</a></li>
+                        <li><a href="tips.php#transportation_tips">Transportaion</a></li>
+                        <li><a href="tips.php#food_tips">Food</a></li>
+                        <li><a href="tips.php#clothing_tips">Clothing</a></li>
                     </ul>
                 </div>
                 <div class="flex">
