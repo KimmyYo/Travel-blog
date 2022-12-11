@@ -302,10 +302,6 @@
                                         </svg>
                                         Transportation
                                     </a>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
                                 </li>
                                 <li class="country_name">
                                     <a href="../tips.php#food_tips">
@@ -315,11 +311,7 @@
                                         </svg>
                                         Food
                                     </a>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
-                                </li>
+                                    </li>
                                 <li class="country_name">
                                     <a href="../tips.php#clothing_tips">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shirt-sport" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -329,10 +321,6 @@
                                         </svg>
                                         Clothing
                                     </a>
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="18" height="18" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                        <polyline points="6 9 12 15 18 9"></polyline>
-                                    </svg>
                                 </li>
                             </ul>
                     </div>
