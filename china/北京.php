@@ -42,7 +42,7 @@
                         <div class="sub_menu">
                             <ul class="choices" id="sub_menu_1">
                                 <li class="country_name" id="sub_country_1">
-                                    <a href="../us/">
+                                    <a href="../us/index.php">
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-departure" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -50,7 +50,7 @@
                                                 <path d="M3 21h18"></path>
                                             </svg> 
                                         </div>
-                                        <div>US</div>
+                                        <div>United States</div>
                                     </a>
                                     <div>
                                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -99,7 +99,7 @@
                                 </ul>
                                 
                                 <li class="country_name" id="sub_country_2">
-                                    <a href="../malaysia/">
+                                    <a href="../malaysia/index.php">
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-departure" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -155,7 +155,7 @@
                                     </li>
                                 </ul>
                                 <li class="country_name" id="sub_country_3">
-                                    <a href="../uk/">
+                                    <a href="../uk/index.php">
                                         <div>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-departure" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -352,9 +352,9 @@
                             </div>
                             <div class="sub_item_section" id="secondary_sub_sub_menu">
                                 <ul class="sub_choices" >
-                                    <li class="country_name"><a href="../us/">United States</a></li>
-                                    <li class="country_name"><a href="../malaysia/">Malaysia</a></li>
-                                    <li class="country_name"><a href="../uk/">United Kingdom</a></li>
+                                    <li class="country_name"><a href="../us/index.php">United States</a></li>
+                                    <li class="country_name"><a href="../malaysia/index.php">Malaysia</a></li>
+                                    <li class="country_name"><a href="../uk/index.php">United Kingdom</a></li>
                                     <li class="country_name"><a href="ch_index.php">China</a></li>
                                 </ul>
         
@@ -462,9 +462,9 @@
                 <div class="flex">
                     <ul>
                         <li class="title">Destination</li>
-                        <li><a href="../us/">United States</a></li>
-                        <li><a href="../uk/">United Kingdom</a></li>
-                        <li><a href="../malaysia/">Malaysia</a></li>
+                        <li><a href="../us/index.php">United States</a></li>
+                        <li><a href="../uk/index.php">United Kingdom</a></li>
+                        <li><a href="../malaysia/index.php">Malaysia</a></li>
                         <li><a href="ch_index.php">China</a></li>
                     </ul>
                 </div>
