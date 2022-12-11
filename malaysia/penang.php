@@ -486,7 +486,7 @@
                 <div class="flex">
                     <ul>
                         <li class="title">Destination</li>
-                        <li><a href="../us/index.php">United State</a></li>
+                        <li><a href="../us/index.php">United States</a></li>
                         <li><a href="../uk/index.php">United Kingdom</a></li>
                         <li><a href="index.php">Malaysia</a></li>
                         <li><a href="../china/ch_index.php">China</a></li>
