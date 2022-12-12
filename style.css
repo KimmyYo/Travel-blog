@@ -695,6 +695,7 @@ article .content .image.flex{
 }
 
 .footer .flex ul, li{
+    font-size: 1.2em;
     margin-bottom: 20px;
     padding-top: 10px;
     cursor: pointer;
