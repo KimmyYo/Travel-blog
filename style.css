@@ -325,6 +325,7 @@ nav .navItem .anchor .choices .city{
 .sub.container .home.title{
     text-align: left;
     color: rgb(255, 254, 254);
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.4);
     font-size: 3em;
     font-weight: bold;
     z-index: 100;
@@ -543,7 +544,7 @@ nav .navItem .anchor .choices .city{
 }
 .the_article{
     min-width: 300px;
-    max-width: 960px;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
