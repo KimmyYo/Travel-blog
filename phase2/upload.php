@@ -83,6 +83,12 @@
 
               
             }
+            else{
+                echo "<script>
+                        alert('Not Support Image Format!');
+                        window.location.href = 'index.php';  
+                    </script>";
+            }
             
         }
      

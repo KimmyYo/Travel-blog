@@ -29,7 +29,7 @@ include "header.php";?>
     
 ?> 
     <div class="main container">
-    <div class="home sub container background" id="homepage_banner">
+    <!-- <div class="home sub container background" id="homepage_banner"> -->
 <?php
 
     include "navigation_section.php";

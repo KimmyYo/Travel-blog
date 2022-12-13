@@ -2,6 +2,7 @@
 <!-- initialization -->
 <?php 
     include "include/config.php";
+   
     $ImageDir = "images/";
 ?>
 
@@ -9,6 +10,7 @@
 <?php include "header.php"; ?>
 <div class="home sub container background" id="homepage_banner">
 <?php include "navigation_section.php";?>
+<?php include "create_btn.php";?>
 
 <!-- render a home page  -->
 
@@ -52,7 +54,10 @@
         <!-- create a form to input the content of the post by user -->
         <form action="upload.php" method="post" enctype="multipart/form-data" id="new_post_form">
             <!-- upload photo to database -->
-            <img class="previewImage" src="#" alt="previewImage" class="visibility-hidden"/>
+            <div class="previewImage">
+                <img id="file-ip-1-preview" style="display: none">
+            </div>
+            <!-- <img class="previewImage" src="#" alt="previewImage"/> -->
             <input type="hidden" name="destination" value="<?php echo $_SERVER["REQUEST_URI"]; ?>"/>
             
             <input type="hidden" name="user_id" value="<?php echo $_SESSION["user_id"];?>">
@@ -62,8 +67,9 @@
             </label>
 
             <div class="uploadArea">
-                <!-- <input type="text" name="uploadContent" id="postContent"> -->
-                <input type="file" name="uploadImage" onchange="preview()">
+                <label>
+                    <input type="file" name="uploadImage" id="file-ip-1" accept="image/*" onchange="showPreview(event);">Choose File
+                </label>
                 <input type="submit" name="submitImage" value="Upload">
             </div>
             <!-- upload text -->
@@ -83,11 +89,13 @@
     $sql = "SELECT * FROM `posts` ORDER BY `posts`.`uploaded_time` DESC LIMIT $rowperpage";
     $posts = $db->query($sql);
 ?>
-<div class="cities sub container " id="posts_section">
+<!-- <div class="cities sub container " id="posts_section">
     
     <div class="title" id="posts">Latest Post</div>
-    <div class="all_posts flex">
+    <div class="all_posts flex"> -->
         <?php 
+         include "getData.php";
+        /*
             foreach($posts as $post){
                 $post_id = $post["id"];
                 $user_id = $post["user_id"];
@@ -201,18 +209,16 @@
             }
             
         ?>
-        <form action="ajax.php" method="get">
-            <input type="hidden" id="start" value="0">
-            <input type="hidden" id="rowperpage" value="<?= $rowperpage ?>">
-            <input type="hidden" id="totalrecords" value="<?= $allcount ?>">
-        </form>
+        */
+       
+?>
     </div>
 
 
 </div>
 
 </div>
-<?php include "footer.php" ?>
+<!-- <?php include "footer.php" ?> -->
         </div>
     </body>
 </html>
