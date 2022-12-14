@@ -61,8 +61,8 @@ $(document).ready(function stickyNavbar(){
      
    
     
-    box_hover($("#main_menu_1"), $("#sub_menu_1"));
-    box_hover($("#main_menu_2"), $("#sub_menu_2"));
+    click_func($("#main_menu_1"), $("#sub_menu_1"));
+    click_func($("#main_menu_2"), $("#sub_menu_2"));
     click_func($("#sub_country_1"), $("#sub_sub_city_1"));
     click_func($("#sub_country_2"), $("#sub_sub_city_2"));
     click_func($("#sub_country_3"), $("#sub_sub_city_3"));
